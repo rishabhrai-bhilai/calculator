@@ -30,3 +30,35 @@
 2024-02-25 11:27:29.475 [main] INFO  org.spe.Calculator - [RESULT - SQ ROOT] - 11.0
 2024-02-25 11:27:29.475 [main] INFO  org.spe.Calculator - [SQ ROOT] - 14641.0
 2024-02-25 11:27:29.475 [main] INFO  org.spe.Calculator - [RESULT - SQ ROOT] - 121.0
+2024-02-25 15:06:13.294 [main] INFO  org.spe.Calculator - [SQ ROOT] - 3.0
+2024-02-25 15:06:13.305 [main] INFO  org.spe.Calculator - [RESULT - SQ ROOT] - 1.7320508075688772
+2024-02-25 15:06:13.306 [main] INFO  org.spe.Calculator - [SQ ROOT] - 4.0
+2024-02-25 15:06:13.308 [main] INFO  org.spe.Calculator - [RESULT - SQ ROOT] - 2.0
+2024-02-25 15:06:13.319 [main] INFO  org.spe.Calculator - [NATURAL LOG] - 1.0
+2024-02-25 15:06:13.321 [main] INFO  org.spe.Calculator - [RESULT - NATURAL LOG] - 0.0
+2024-02-25 15:06:13.323 [main] INFO  org.spe.Calculator - [NATURAL LOG] - 300.0
+2024-02-25 15:06:13.323 [main] INFO  org.spe.Calculator - [RESULT - NATURAL LOG] - 5.703782474656201
+2024-02-25 15:06:13.325 [main] INFO  org.spe.Calculator - [NATURAL LOG] - 2.4
+2024-02-25 15:06:13.326 [main] INFO  org.spe.Calculator - [RESULT - NATURAL LOG] - 0.8754687373538999
+2024-02-25 15:06:13.327 [main] INFO  org.spe.Calculator - [NATURAL LOG] - 2.1
+2024-02-25 15:06:13.328 [main] INFO  org.spe.Calculator - [RESULT - NATURAL LOG] - 0.7419373447293773
+2024-02-25 15:06:13.329 [main] INFO  org.spe.Calculator - [FACTORIAL] - 3
+2024-02-25 15:06:13.331 [main] INFO  org.spe.Calculator - [RESULT - FACTORIAL] - 6
+2024-02-25 15:06:13.332 [main] INFO  org.spe.Calculator - [FACTORIAL] - 6
+2024-02-25 15:06:13.333 [main] INFO  org.spe.Calculator - [RESULT - FACTORIAL] - 720
+2024-02-25 15:06:13.344 [main] INFO  org.spe.Calculator - [FACTORIAL] - 5
+2024-02-25 15:06:13.344 [main] INFO  org.spe.Calculator - [RESULT - FACTORIAL] - 120
+2024-02-25 15:06:13.346 [main] INFO  org.spe.Calculator - [FACTORIAL] - 10
+2024-02-25 15:06:13.348 [main] INFO  org.spe.Calculator - [RESULT - FACTORIAL] - 3628800
+2024-02-25 15:06:13.357 [main] INFO  org.spe.Calculator - [POWER - 2.0 RAISED TO] 5.0
+2024-02-25 15:06:13.362 [main] INFO  org.spe.Calculator - [RESULT - POWER] - 32.0
+2024-02-25 15:06:13.363 [main] INFO  org.spe.Calculator - [POWER - 9.0 RAISED TO] 2.0
+2024-02-25 15:06:13.363 [main] INFO  org.spe.Calculator - [RESULT - POWER] - 81.0
+2024-02-25 15:06:13.366 [main] INFO  org.spe.Calculator - [POWER - 2.0 RAISED TO] 2.0
+2024-02-25 15:06:13.366 [main] INFO  org.spe.Calculator - [RESULT - POWER] - 4.0
+2024-02-25 15:06:13.367 [main] INFO  org.spe.Calculator - [POWER - -2.0 RAISED TO] 20.0
+2024-02-25 15:06:13.367 [main] INFO  org.spe.Calculator - [RESULT - POWER] - 1048576.0
+2024-02-25 15:06:13.368 [main] INFO  org.spe.Calculator - [SQ ROOT] - 121.0
+2024-02-25 15:06:13.369 [main] INFO  org.spe.Calculator - [RESULT - SQ ROOT] - 11.0
+2024-02-25 15:06:13.370 [main] INFO  org.spe.Calculator - [SQ ROOT] - 14641.0
+2024-02-25 15:06:13.371 [main] INFO  org.spe.Calculator - [RESULT - SQ ROOT] - 121.0
