@@ -8,26 +8,25 @@ pipeline{
         stage('Stage 1: Git Clone'){
            steps{
                 git branch: 'master',
-                url:'https://github.com/y-srishti/Calculator.git'
+                url:'https://github.com/rishabhrai-bhilai/calculator.git'
             }
         }
-
-        stage('Step 2: Maven Build'){
+         stage('Step 2: Maven Build'){
             steps{
                 sh 'mvn clean install'
             }
         }
-          stage('Step 3: Build Docker Image'){
+        stage('Step 3: Build Docker Image'){
             steps {
                 script {
-                    docker_image = docker.build "0srishtiyadav0/calculator:latest"
+                    docker_image = docker.build "rishabh8797/calculator:latest"
                 }
             }
         }
         stage('Stage 4: Push docker image to hub') {
             steps{
                 script{
-                    docker.withRegistry('', '0srishtiyadav0'){
+                    docker.withRegistry('', 'rishabh8797'){
                         docker_image.push()
                     }
                 }
@@ -45,9 +44,9 @@ pipeline{
 
                 // Remove the container and its image
                     sh "docker rm Calculator || true"
-                    sh "docker rmi -f 0srishtiyadav0/calculator:latest || true"
+                    sh "docker rmi -f rishabh8797/calculator:latest || true"
             }
-        }
+    }
         stage('Step 5: Ansible Deployment'){
             steps{
                 ansiblePlaybook becomeUser: null,
